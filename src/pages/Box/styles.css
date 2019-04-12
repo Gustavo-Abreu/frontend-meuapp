@@ -1,0 +1,25 @@
+#box-container{
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#box-container form {
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#box-container form input{
+    height: 48px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
